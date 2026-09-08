@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AvicennaFisiomed2
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.1.
@@ -57,3 +58,21 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+## Hi there 👋
+
+<!--
+**avicennafisiomed/avicennaFisiomed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+>>>>>>> d471703246b79337ac1b7504503918e4c69e6a5d
