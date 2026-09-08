@@ -44,7 +44,7 @@ export const DettagliServizioData: DettagliServizio[] = [
   {
     id: '4',
     title: 'WINBACK THERAPY',
-    image: 'assets/img/servizi/winback.jpg',
+    image: 'assets/img/cosafacciamo/win.jpg',
     description: 'È un sistema di riabilitazione all’avanguardia che combina l’energia ad alta frequenza (Tecar) con la terapia manuale per accelerare la guarigione, ridurre il dolore cronico e acuto e migliorare la mobilità dei tessuti. ',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Trattamento di tendiniti, borsiti, distorsioni, contratture, stiramenti, lesioni muscolari e traumi ossei.' },

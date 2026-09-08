@@ -1,0 +1,23 @@
+<section>
+  <div class="box-sup">
+    <div class="box-titolo">
+      <h3>TECNOLGIE.</h3>
+      <h3 class="giallo">RISULTATI.</h3>
+      <p>Strumenti avanzati per analizzare, trattare e migliorare la tua performance.</p>
+    </div>
+    <button class="btn-scopri"><a href="/servizi">SCOPRI LE NOSTRE TECNOLOGIE
+        <img class="arrow-icon" src="../../../assets/img/icon/right-arrow.png">
+      </a></button>
+  </div>
+  <div class="box-img">
+    <div class="box-item" *ngFor="let dataF of data">
+      <a [routerLink]="['/servizi', dataF.id]">
+      <img class="img" [src]="dataF.image" [alt]="dataF.title"> 
+      <div class="box-cont">
+        <h4>{{ dataF.title }}</h4>
+        <p>{{ dataF.testo }}</p>
+      </div>
+      </a>
+    </div>
+  </div>
+</section>

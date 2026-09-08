@@ -1,111 +1,233 @@
 .main-box {
-  background-image: url("/assets/img/foto-homepage.jpg");
-  background-size: 100% 100%;
-  background-position: center;
-  position: relative;
   width: 100%;
-  height: 100vh;
+  height: 95vh;
 }
 
+.img-box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 95vh;
+}
 
+.img-fluid {
+  width: 80%;
+  height: 90vh;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.6);
+  background-size: contain;
+  z-index: 1;
+}
 
-div.hero {
+.hero {
   position: relative;
+  display: flex;
+  flex-direction: column;
   width: 65%;
   margin: auto;
+  padding: 20px 0 20px 0;
   color: white;
-  top: 180px;
+  top: 250px;
   z-index: 2;
 }
 
-div.hero h1 {
-  font-weight: 900;
-  font-size: 70px;
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+.titolo h2 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
-div.hero h2 {
-  font-weight: 500;
-  font-size: 35px;
-  margin-bottom: 40px;
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+.titolo h2 span {
+  color: #FF8900;
 }
 
-
-div.hero p {
-  width: 50%;
+.titolo p {
   font-size: 25px;
-  margin-bottom: 50px;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.701);
-  line-height: 25px;
+  margin: 20px 0 20px 0;
 }
 
-.contattaci {
-  background-color: #026568;
-  letter-spacing: 1px;
+.btn-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 0 0 20px 0;
+}
+
+.btn-box button {
   color: white;
-  font-size: 20px;
-  font-weight: 600;
-  width: 170px;
-  height: 45px;
-  border-radius: 15px;
+  background-color: rgb(2, 101, 104);
+  padding: 10px 20px;
   border: none;
-  box-shadow: #054748 2px 2px 5px;
+  margin-right: 10px;
+  font-weight: 600;
 }
 
-.contattaci:hover {
-  background-color: #2b969a;
+.btn-box button a {
+  color: white;
+  text-decoration: none;
 }
 
-.contattaci:active {
-  background-color: #01383a;
+.btn-box button:hover {
+  background-color: rgba(47, 160, 163, 0.8);
+}
+
+.linea {
+  width: 60%;
+  height: 5px;
+  background-color: white;
+}
+
+.social img {
+  width: 50px;
+  height: 50px;
+  margin: 15px 10px 15px 0;
 }
 
 
-.spazio {
-  margin: 40px 0;
-  color: transparent;
-}
-
-@media (max-width: 990px) and (min-width:577px) {
-
-  div.hero h1 {
-    font-size: 45px;
+@media (max-width: 900px) and (min-width:701px) {
+  .main-box {
+    height: 110vh;
   }
 
-  div.hero h2 {
-    font-size: 25px;
+  .img-fluid {
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 80vh;
   }
 
-  div.hero p {
+  .hero {
+    height: 85vh;
+    justify-content: center;
+    z-index: 2;
+    width: 100%;
+    padding: 0 20px 0 20px;
+  }
+
+  .hero h2 {
+    width: 50%;
+    font-size: 3.7em;
+  }
+
+  .hero p {
+    color: black;
+    width: 100%;
     font-size: 16px;
   }
+
+  .btn-box {
+    flex-direction: column;
+  }
+
+  .btn-box button {
+    margin-bottom: 10px;
+  }
+    .linea {
+    display: none;
+  }
+  
+  .social {
+    display: none;
+  }
 }
 
-@media (max-width: 576px) {
-  .img-box{
+@media (max-width: 700px) and (min-width:501px) {
+  .main-box {
+    height: 110vh;
+  }
+
+  .img-fluid {
+    background-size: contain;
+    background-position: center;
     position: relative;
-    background-image: url("/assets/img/foto-mobile.png");
-    background-size: cover;
     width: 100%;
+    height: 80vh;
+  }
+
+  .hero {
+    height: 85vh;
+    justify-content: center;
+    z-index: 2;
+    width: 100%;
+    padding: 0 20px 0 20px;
+  }
+
+  .hero h2 {
+    width: 70%;
+    font-size: 3.7em;
+  }
+
+  .hero p {
+    color: black;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .btn-box {
+    flex-direction: column;
+  }
+
+  .btn-box button {
+    margin-bottom: 10px;
+  }
+
+    .linea {
+    display: none;
+  }
+  
+  .social {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-box {
     height: 100vh;
   }
 
-  div.hero {
-  top: 140px;
-  z-index: 2;
-}
-
-  div.hero h1 {
-    font-size: 40px;
+  .img-fluid {
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 80vh;
   }
 
-  div.hero h2 {
-    font-size: 20px;
+  .hero {
+    height: 87vh;
+    justify-content: center;
+    z-index: 2;
+    width: 100%;
+    padding: 0 20px 0 20px;
   }
 
-  div.hero p {
+  .hero h2 {
+    width: 90%;
+    font-size: 3.5em;
+  }
+
+  .hero p {
+    color: black;
     width: 100%;
     font-size: 16px;
+  }
+
+  .btn-box {
+    flex-direction: column;
+  }
+
+  .btn-box button {
+    margin-bottom: 10px;
+  }
+
+  .linea {
+    display: none;
+  }
+
+  .social {
+    display: none;
   }
 }

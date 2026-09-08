@@ -1,0 +1,171 @@
+section {
+  background-color: #026568;
+  padding: 50px 0 50px 0;
+}
+
+.box-sup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto 30px auto;
+}
+
+h3,
+p {
+  color: white;
+}
+
+h3,
+.giallo {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.giallo {
+  color: #FF8900;
+  margin-bottom: 20px;
+}
+
+p {
+  width: 75%;
+}
+
+.btn-scopri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF8900;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.btn-scopri a {
+  display: inline-flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+.arrow-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.box-img {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.box-item {
+  position: relative;
+  margin: 0 20px 20px 20px;
+}
+
+.img {
+  background-size: contain;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  filter: brightness(0.6);
+  display: block;
+}
+
+.box-cont {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  width: 220px;
+  z-index: 1;
+}
+
+.box-cont h4,
+p {
+  color: white;
+  margin: 0 0 0 10px;
+}
+
+
+@media (max-width: 990px) and (min-width:577px) {
+  .box-sup {
+    width: 80%;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+
+  .box-img {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
+
+  .box-item {
+    margin: 0 20px 20px 0;
+  }
+}
+
+@media (max-width: 576px) {
+
+  section {
+    padding: 20px 0 20px 0;
+  }
+  .box-sup {
+    width: 80%;
+    flex-direction: column;
+    align-items:  start;
+    gap: 20px;
+  }
+
+  .box-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .box-item {
+    position: relative;
+    margin: 0 0 20px 0;
+  }
+
+  .img {
+    width: 400px;
+    height: 240px;
+    filter: brightness(0.55);
+  }
+
+  .box-cont {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    width: auto;
+  }
+
+  .box-cont h4,
+  .box-cont p {
+    margin-left: 0;
+  }
+
+  h3,
+  .giallo {
+    font-size: 28px;
+  }
+
+  p {
+    width: 100%;
+    margin: 0;
+  }
+}

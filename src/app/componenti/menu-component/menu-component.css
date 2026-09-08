@@ -1,6 +1,6 @@
 .custom-navbar {
   background-color: transparent;
-  position: absolute;
+  position: relative;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -11,11 +11,19 @@
 }
 
 .container {
-  height: 100px;
+  height: 75px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+.container-btn-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -25,11 +33,12 @@
   aspect-ratio: 3 / 4;
 }
 
-
 .logo {
   margin-left: 15px;
 }
 
+
+/* servizi  */
 .navbar-toggler {
   margin-right: 25px;
 }
@@ -45,7 +54,6 @@ a.nav-link {
   cursor: pointer;
 }
 
-
 .nav-item .nav-link {
   text-align: center;
   font-size: 22px;
@@ -54,25 +62,20 @@ a.nav-link {
   height: 50px;
 }
 
-
 .arrow {
   margin-left: 10px;
 }
 
-.nav-item-search {
-  order: 5;
-  width: 50px;
-  text-align: center;
-  padding: 10px;
-}
 
-
-/* css dropdown */
+/* menu aperto */
 .mega-menu {
-  background-color: #026568;
+  background-color: BLACK;
   width: 100%;
   position: fixed;
-  top: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 85px;
   left: 0;
   padding: 0;
 }
@@ -82,101 +85,103 @@ a.nav-link {
   position: relative;
   flex-direction: row;
   align-items: start;
-  width: 100%;
+  justify-content: space-Around;
+  width: 80%;
   margin: auto;
   padding: 10px;
 }
 
-.col-md-4{
-  margin-top: 35px;
-}
-
-.col-md-8 {
-  margin-top: 0;
+.col-3 {
+  margin-top: 25px;
+  width: 20%;
 }
 
 
-h6 {
-  color: white;
-  margin-bottom: 10px;
-  font-weight: 100;
+h5 {
+  color: #FF8900;
+  margin-bottom: 20px;
+  font-weight: 400;
 }
 
 .list-unstyled li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .list-unstyled li a {
   color: white;
-  font-size: 18px;
+  font-size: 17px;
   text-decoration: none;
 }
 
 
 .list-unstyled li a:hover {
-  color: rgb(153, 210, 205);
-  font-size: 18px;
+  color: rgb(141, 158, 157);
+  font-size: 17px;
   text-decoration: none;
 }
 
-.nav-item-search {
-width: auto;
-}
-
-
-.s-box {
+/* menu aperto seconda parte */
+.seconda-parte {
   display: flex;
-  flex-direction: row-reverse;
-}
-
-.open-search {
-  border: none;
-  background-color: transparent;
-}
-
-.open-search:hover {
-  background-color: #f0f0f0;
-}
-
-.search-container {
-  position: relative;
-  display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  width: 0;
-  overflow: hidden;
-  transition: width 0.3s ease;
-}
-
-.search-container.active {
-  width: 200px;
-}
-
-.search-control {
+  justify-content: center;
   width: 100%;
-  height: 40px;
-  padding: 5px 10px;
-  border-radius: 25px;
-  border: none;
+  margin-top: 20px;
 }
 
-.search-dropdown {
-  background: #026568;
+.barra {
+  width: 80%;
+  background-color: white;
+  height: 3px;
+}
+
+.prenota {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0 20px 0;
+}
+
+.icon-calendario {
+  width: 100px;
+  height: 100px;
+}
+
+.testo-prenota {
   color: white;
-  width: 300px;
-  border-radius: 8px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  padding: 10px 0;
-  margin: 10px;
+  font-size: 16px;
 }
 
-.suggestion-item {
-  padding: 8px 16px;
-  cursor: pointer;
+/* button prenota */
+.btn-container {
+  width: auto;
+  display: flex;
 }
 
-.suggestion-item:hover {
-  background: #4b989b;
+.btn-container button {
+  margin-right: 20px;
+  background-color: black;
+  padding: 8px 20px;
+  border: none;
+  font-weight: 700;
+}
+
+.btn-container button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.btn-container button:hover {
+  background-color: #353e3e;
+  font-weight: 700;
+}
+
+.btn-container button:active {
+  background-color: #1a1c1c;
+  font-weight: 700;
 }
 
 @media (max-width: 990px) and (min-width:577px) {
@@ -186,25 +191,25 @@ width: auto;
     z-index: 1000;
   }
 
-  .container {
-    width: 100%;
+  .container-btn-menu {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
-    margin: auto;
+    width: auto;
   }
 
   div.collapse.navbar-collapse {
     width: 100% !important;
     position: absolute;
+    background-color: black;
     left: 0;
     top: 95%;
-    background-color: #026568;
     padding: 20px;
     z-index: 999;
   }
 
   .box-logo {
-    width: 100px;
+    width: 80px;
   }
 
   li .nav-link {
@@ -217,30 +222,6 @@ width: auto;
     color: white !important;
   }
 
-  .nav-item-search {
-    order: -1;
-  }
-
-   .nav-item-search {
-    order: -1;
-    width: 100%;
-  }
-  
-  .open-search {
-    pointer-events: none;
-  }
-
-  .s-box {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .search-container {
-    width: 50%;
-     order: -1;
-  }
-
   .mega-menu {
     position: relative;
     width: 100%;
@@ -249,6 +230,32 @@ width: auto;
     right: 0;
     padding: 0;
   }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .col-3 {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .prenota {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0 20px 0;
+  }
+
+  .icon-calendario {
+    width: 80px;
+    height: 80px;
+  }
+
 
   .dropdown-toggle {
     display: flex;
@@ -265,22 +272,27 @@ width: auto;
     z-index: 1000;
   }
 
-  .container {
-    width: 100%;
+
+
+  .container-btn-menu {
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
+    align-items: center;
+    width: auto;
   }
 
   div.collapse.navbar-collapse {
     width: 100% !important;
     position: absolute;
     top: 95%;
-    background-color: #026568;
+    background-color: black;
     padding: 20px;
     z-index: 999;
   }
 
   .box-logo {
-    width: 100px;
+    width: 70px;
   }
 
   li .nav-link {
@@ -293,25 +305,6 @@ width: auto;
     color: white !important;
   }
 
-  .nav-item-search {
-    order: -1;
-    width: 100%;
-  }
-  
-  .open-search {
-    pointer-events: none;
-  }
-
-  .s-box {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .search-container {
-    width: 50%;
-     order: -1;
-  }
 
   .mega-menu {
     position: relative;
@@ -322,13 +315,50 @@ width: auto;
     padding: 0;
   }
 
+  .row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .col-3 {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .prenota {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0 20px 0;
+  }
+
+   .icon-calendario {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testo-prenota {
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+
+  .testo-prenota h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .testo-prenota p {
+    margin: 0;
+  }
+
   .dropdown-toggle {
     display: flex;
     justify-content: space-between;
     padding-right: 20%;
   }
 
-  .search-container {
-    overflow: visible;
-  }
 }

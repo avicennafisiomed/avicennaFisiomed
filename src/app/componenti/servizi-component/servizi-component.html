@@ -4,7 +4,7 @@
 
   <!-- COLONNA SINISTRA -->
   <div class="colonna">
-    <div *ngFor="let serv of leftColumn">
+    <div class="box" *ngFor="let serv of leftColumn">
       <h6>{{serv.title}}</h6>
       <div class="linea"></div>
       <ul>
@@ -19,7 +19,7 @@
 
   <!-- COLONNA DESTRA -->
   <div class="colonna">
-    <div *ngFor="let serv of rightColumn">
+    <div class="box" *ngFor="let serv of rightColumn">
       <h6>{{serv.title}}</h6>
       <div class="linea"></div>
       <ul>

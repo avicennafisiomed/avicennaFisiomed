@@ -1,5 +1,4 @@
 .contatti {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,10 +115,37 @@
   height: 100%;
 }
 
+.come-raggiungerci {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 30px 0;
+}
 
-@media (max-width: 768px) {
+.come-raggiungerci h1 {
+  margin-bottom: 30px;
+}
+
+.box-come {
+  font-size: 16px;
+  text-align: center;
+  width: 50%;
+}
+
+@media (max-width: 990px) and (min-width:577px){
+   .box-con {
+    flex-wrap: wrap;
+  }
+  .map-container {
+    height: 100%;
+  }
   .map-frame {
     height: 45vh;
+  }
+  .box-dove {
+    height: 100%;
   }
 }
 
@@ -128,7 +154,7 @@
   .contatti {
     position: relative;
     height: auto;
-    padding-top: 140px;
+    padding-top: 50px;
   }
 
   .contatti h1 {
@@ -140,9 +166,7 @@
     flex-direction: row;  
   }
 
-  .map-container {
-  height: auto;
-}
+
 
   .box-con {
     flex-direction: column;
@@ -153,5 +177,9 @@
     width: 100%;
     margin-top: 0;
     margin-bottom: 20px;
+  }
+
+  .box-come {
+    width: 70%;
   }
 }

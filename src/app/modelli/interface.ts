@@ -7,8 +7,10 @@ export interface ChiSiamoData {
 
 
 export interface CosaFacciamoData {
+  id:number;
   image: string;
   title: string;
+  testo: string;
   priority?: boolean;
 }
 
