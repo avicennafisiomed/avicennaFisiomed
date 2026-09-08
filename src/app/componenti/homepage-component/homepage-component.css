@@ -1,6 +1,6 @@
 .main-box {
   width: 100%;
-  height: 95vh;
+  height: 100vh;
 }
 
 .img-box {
@@ -87,10 +87,6 @@
 
 
 @media (max-width: 900px) and (min-width:701px) {
-  .main-box {
-    height: 110vh;
-  }
-
   .img-fluid {
     background-size: contain;
     background-position: center;
@@ -100,7 +96,8 @@
   }
 
   .hero {
-    height: 85vh;
+    position: absolute;
+    top: 520px;
     justify-content: center;
     z-index: 2;
     width: 100%;
@@ -125,19 +122,17 @@
   .btn-box button {
     margin-bottom: 10px;
   }
-    .linea {
+
+  .linea {
     display: none;
   }
-  
+
   .social {
     display: none;
   }
 }
 
 @media (max-width: 700px) and (min-width:501px) {
-  .main-box {
-    height: 110vh;
-  }
 
   .img-fluid {
     background-size: contain;
@@ -148,7 +143,8 @@
   }
 
   .hero {
-    height: 85vh;
+    position: absolute;
+    top: 520px;
     justify-content: center;
     z-index: 2;
     width: 100%;
@@ -174,19 +170,17 @@
     margin-bottom: 10px;
   }
 
-    .linea {
+  .linea {
     display: none;
   }
-  
+
   .social {
     display: none;
   }
 }
 
 @media (max-width: 500px) {
-  .main-box {
-    height: 100vh;
-  }
+
 
   .img-fluid {
     background-size: contain;
@@ -197,7 +191,8 @@
   }
 
   .hero {
-    height: 87vh;
+    position: absolute;
+    top: 535px;
     justify-content: center;
     z-index: 2;
     width: 100%;
