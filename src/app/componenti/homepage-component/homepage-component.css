@@ -1,6 +1,6 @@
 .main-box {
   width: 100%;
-  min-height: 95vh;
+  min-height: 900px;
 }
 
 .img-box {
@@ -88,8 +88,7 @@
 
 @media (max-width: 900px) and (min-width:701px) {
   .main-box {
-    width: 100%;
-    min-height: 100vh;
+    min-height: 860px;
   }
 
   .img-fluid {
@@ -138,6 +137,9 @@
 }
 
 @media (max-width: 700px) and (min-width:501px) {
+  .main-box {
+    min-height: 860px;
+  }
 
   .img-fluid {
     background-size: contain;
@@ -186,8 +188,7 @@
 
 @media (max-width: 500px) {
   .main-box {
-    width: 100%;
-    min-height: 100vh;
+    min-height: 860px;
   }
 
 
