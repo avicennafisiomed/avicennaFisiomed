@@ -3,7 +3,7 @@ import { Inject, Injectable } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
 const SITE_URL = 'https://avicennafisiomed.com';
-const DEFAULT_IMAGE = `${SITE_URL}/assets/img/logo.png`;
+const DEFAULT_IMAGE = `${SITE_URL}/assets/img/avicenna-fisiomed.jpg`;
 
 export interface SeoPage {
   title: string;
