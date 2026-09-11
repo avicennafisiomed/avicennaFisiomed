@@ -23,7 +23,11 @@
               "leaflet"
             ],
             "assets": [
-              "public",
+              {
+                "glob": "**/*",
+                "input": "public",
+                "output": "/"
+              },
               "src/assets",
               {
                 "glob": "**/*",
