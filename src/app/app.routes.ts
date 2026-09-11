@@ -5,8 +5,8 @@ import { ServiziComponent } from './componenti/servizi-component/servizi-compone
 import { DettagliServizi } from './componenti/dettagli-servizi/dettagli-servizi';
 
 export const routes: Routes = [
-  { path: '', component: HomepageComponent },
-  { path: 'contatti', component: ContattiComponent },
-  { path: 'servizi', component: ServiziComponent },
+  { path: '', component: HomepageComponent, title: 'Avicenna Fisiomed | Fisioterapia e Riabilitazione a Mestre' },
+  { path: 'contatti', component: ContattiComponent, title: 'Contatti e Prenotazioni | Avicenna Fisiomed' },
+  { path: 'servizi', component: ServiziComponent,  title: 'Servizi di Fisioterapia e Riabilitazione | Avicenna Fisiomed' },
   { path: 'servizi/:id', component: DettagliServizi }
 ];
