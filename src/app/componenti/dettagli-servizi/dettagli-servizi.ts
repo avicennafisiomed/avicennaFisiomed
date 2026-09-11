@@ -3,6 +3,7 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { DettagliServizio } from '../../modelli/interface';
 import { DettagliServizioData } from '../../data/dettagliservizio.data';
 import { ActivatedRoute } from '@angular/router';
+import { SeoService } from '../../seo.service';
 
 
 @Component({
@@ -14,7 +15,7 @@ import { ActivatedRoute } from '@angular/router';
 export class DettagliServizi implements OnInit {
 page? : DettagliServizio;
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute, private readonly seo: SeoService) { }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
@@ -23,6 +24,14 @@ page? : DettagliServizio;
       this.page= DettagliServizioData.find(
         servizio => servizio.id === id
       )
+
+      if (this.page && id) {
+        this.seo.update({
+          title: `${this.page.title} | Avicenna Fisiomed`,
+          description: this.page.description,
+          path: `/servizi/${id}`,
+        });
+      }
     })
   }
 }

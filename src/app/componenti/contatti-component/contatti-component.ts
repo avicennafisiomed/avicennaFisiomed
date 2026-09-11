@@ -1,16 +1,29 @@
-import { Component, AfterViewInit, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, AfterViewInit, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import { SeoService } from '../../seo.service';
 
 @Component({
   selector: 'app-contatti-component',
   templateUrl: './contatti-component.html',
   styleUrls: ['./contatti-component.css'], 
 })
-export class ContattiComponent implements AfterViewInit {
+export class ContattiComponent implements AfterViewInit, OnInit {
   private map: any; 
   private centroid: [number, number] = [45.47393, 12.23573];
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+  constructor(
+    @Inject(PLATFORM_ID) private platformId: Object,
+    private readonly seo: SeoService,
+  ) {}
+
+  ngOnInit(): void {
+    this.seo.update({
+      title: 'Contatti e Prenotazioni | Avicenna Fisiomed',
+      description:
+        'Contatta Avicenna Fisiomed a Marghera, Venezia, per informazioni e prenotazioni di fisioterapia, riabilitazione e performance.',
+      path: '/contatti',
+    });
+  }
 
 async ngAfterViewInit(): Promise<void> {
   if (isPlatformBrowser(this.platformId)) {
