@@ -87,6 +87,11 @@
 
 
 @media (max-width: 900px) and (min-width:701px) {
+  .main-box {
+    width: 100%;
+    min-height: 100vh;
+  }
+
   .img-fluid {
     background-size: contain;
     background-position: center;
@@ -180,6 +185,10 @@
 }
 
 @media (max-width: 500px) {
+  .main-box {
+    width: 100%;
+    min-height: 100vh;
+  }
 
 
   .img-fluid {
