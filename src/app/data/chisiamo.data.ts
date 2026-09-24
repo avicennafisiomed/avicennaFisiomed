@@ -18,5 +18,11 @@ export const Data: ChiSiamoData[] = [
     workTitle: 'PERSONAL TRAINER',
     nome: 'LUIGI MASSA',
     p: 'Chinesiologo/preparatore atletico.\nEsperto in movimento terapeutico e della 3° età, prevenzione sportiva. \n\nSi dedica a corsi di piccoli gruppi di ginnastica posturale, dolce e pre-post parto'
+  },
+  {
+    image: 'assets/img/chisiamo/patrizia.jpg',
+    workTitle: 'FISIOTERAPISTA',
+    nome: 'PATRIZIA',
+    p: 'Specializzata nella rieducazione del pavimento pelvico'
   }
   ]

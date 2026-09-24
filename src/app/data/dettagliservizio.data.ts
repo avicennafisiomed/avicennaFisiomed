@@ -5,7 +5,7 @@ export const DettagliServizioData: DettagliServizio[] = [
     id: '1',
     title: 'ESWT - onde d\'urto focale ecoguidata',
     image: 'assets/img/servizi/eswt.jpg',
-    description: 'È una terapia non invasiva ed efficace per il trattamento del dolore muscolo-scheletrico.',
+    description: 'Le onde d urto focali ESWT - Extracorporeal Shock Wave Therapy sono impulsi acustici ad alta energia focalizzati in un punto preciso e profondo, fino a 10-12 cm. È una terapia non invasiva ed efficace per il trattamento del dolore muscolo-scheletrico.',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Lesioni e processi degenerativi dei tendini della cuffia dei rotatori' },
       { icon: 'assets/img/icon/check.png', text: 'Tendinopatia calcifica (es. calcificazione del sovraspinato)' },
@@ -17,8 +17,8 @@ export const DettagliServizioData: DettagliServizio[] = [
   },
   {
     id: '2',
-    title: 'EMT - ElettroMagnetic Transduction Therapy',
-    image: 'assets/img/servizi/eswt.jpg',
+    title: 'EMTT - ElettroMagnetic Transduction Therapy',
+    image: 'assets/img/servizi/studio.jpg',
     description: 'È una terapia non invasiva che utilizza campi elettromagnetici ad alta intensità (\(>80\) mT) e frequenza (\(100-300\) kHz) per trattare dolori muscoloscheletrici, infiammazioni e patologie ossee.',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Al trattamento di dolori alla schiena, lombalgie, radicolopatie e contratture muscolari.' },
@@ -31,7 +31,7 @@ export const DettagliServizioData: DettagliServizio[] = [
   {
     id: '3',
     title: 'LASER YAG ad alta potenza - 5 Chronic Sport',
-    image: 'assets/img/servizi/laser.jpg',
+    image: 'assets/img/servizi/studio.jpg',
     description: 'È una terapia fisica d’avanguardia che, con potenze elevate (spesso >10-25W), penetra in profondità (4-7 cm) nei tessuti, garantendo un rapido effetto antinfiammatorio, antiedemigeno e antalgico.',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Distorsioni (es. caviglia), stiramenti e strappi muscolari, contratture.' },
@@ -44,7 +44,7 @@ export const DettagliServizioData: DettagliServizio[] = [
   {
     id: '4',
     title: 'WINBACK THERAPY',
-    image: 'assets/img/cosafacciamo/win.jpg',
+    image: 'assets/img/cosafacciamo/studio.jpg',
     description: 'È un sistema di riabilitazione all’avanguardia che combina l’energia ad alta frequenza (Tecar) con la terapia manuale per accelerare la guarigione, ridurre il dolore cronico e acuto e migliorare la mobilità dei tessuti. ',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Trattamento di tendiniti, borsiti, distorsioni, contratture, stiramenti, lesioni muscolari e traumi ossei.' },
@@ -71,7 +71,7 @@ export const DettagliServizioData: DettagliServizio[] = [
   {
     id: '6',
     title: 'EPI® - Elettrolisi',
-    image: 'assets/img/servizi/epi.jpg',
+    image: 'assets/img/servizi/studio.jpg',
     description: 'È una terapia mininvasiva, ecoguidata, utilizzata per curare tendinopatie e lesioni muscolari croniche. Attraverso un ago da agopuntura, viene applicata una corrente galvanica che provoca una reazione chimica, stimolando la rigenerazione del tessuto degenerato e riducendo il dolore. ',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Efficace su tendiniti e tendinosi come quella achillea, del rotuleo (ginocchio), epicondilite (gomito del tennista), epitrocleite, e tendinopatie della spalla (sovraspinoso).' },
@@ -84,7 +84,7 @@ export const DettagliServizioData: DettagliServizio[] = [
   {
     id: '7',
     title: 'Terapia infiltrativa ecoguidata',
-    image: 'assets/img/servizi/terapia-infiltrativa.jpg',
+    image: 'assets/img/servizi/studio.jpg',
     description: 'È una terapia  mini-invasiva che inietta farmaci (corticosteroidi, acido ialuronico, PRP, anestetici) in articolazioni, tendini o guaine, utilizzando l\'ecografia in tempo reale per garantire massima precisione, sicurezza e sollievo dal dolore, evitando danni a strutture adiacenti come nervi e vasi. ',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Efficace per la gonartrosi (ginocchio), coxartrosi (anca) e artrosi della spalla' },
@@ -96,7 +96,7 @@ export const DettagliServizioData: DettagliServizio[] = [
   {
     id: '8',
     title: 'Ozono terapia',
-    image: 'assets/img/servizi/terapia-infiltrativa.jpg',
+    image: 'assets/img/servizi/studio.jpg',
     description: 'È un trattamento con azione antinfiammatoria e antidolorifica.',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Lombosciatalgia, ernia del disco, protrusioni, cervicalgia, dorsalgia, e dolori neuropatici.' },
@@ -126,7 +126,7 @@ export const DettagliServizioData: DettagliServizio[] = [
   {
     id: '10',
     title: 'Baropodometria',
-    image: 'assets/img/servizi/baropodometria.jpg',
+    image: 'assets/img/servizi/palestra.jpg',
     description: 'È un esame computerizzato non invasivo che analizza la distribuzione del carico pressorio sui piedi, sia in posizione statica che durante il cammino',
     utils: [
       { icon: 'assets/img/icon/check.png', text: ' Identificare patologie come metatarsalgie, talloniti, fascite plantare, neuroma di Morton e alluce valgo.' },
@@ -160,7 +160,7 @@ export const DettagliServizioData: DettagliServizio[] = [
   {
     id: '13',
     title: 'BFR - Blood Flow Restriction Training',
-    image: 'assets/img/servizi/bfr.jpg',
+    image: 'assets/img/servizi/palestra.jpg',
     description: 'È una metodologia di allenamento che prevede la parziale restrizione del flusso sanguigno venoso negli arti durante esercizi a basso carico (\(20-40\%\) del massimale), usando bracciali compressivi.',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Consente il rafforzamento muscolare precoce in pazienti che non possono sostenere carichi elevati. Riduce l\'atrofia e favorisce la guarigione di tendini e ossa.' },
