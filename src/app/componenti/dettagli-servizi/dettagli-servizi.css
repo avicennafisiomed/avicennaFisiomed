@@ -78,12 +78,19 @@
   background-color: rgb(204, 202, 202);
 }
 
+.p-extra{
+  flex-direction: column;
+  width: 67%;
+  font-size: 18px;
+  padding-top: 15px;
+  line-height: 25px;
+}
+
 
 .p-box {
   display: flex;
   justify-content: center;
   margin: auto;
-  margin: 20px;
 }
 
 .p {

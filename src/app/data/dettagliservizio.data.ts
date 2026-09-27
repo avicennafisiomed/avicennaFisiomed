@@ -9,11 +9,39 @@ export const DettagliServizioData: DettagliServizio[] = [
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Lesioni e processi degenerativi dei tendini della cuffia dei rotatori' },
       { icon: 'assets/img/icon/check.png', text: 'Tendinopatia calcifica (es. calcificazione del sovraspinato)' },
+      { icon: 'assets/img/icon/check.png', text: 'Tendinopatie croniche non calcifiche' },
+      { icon: 'assets/img/icon/check.png', text: 'Fascite plantare e sperone calcaneare' },
+      { icon: 'assets/img/icon/check.png', text: 'Epicondilite ed epitrocleite' },
+      { icon: 'assets/img/icon/check.png', text: 'Tendinopatia rotulea e tendinopatia achillea' },
+      { icon: 'assets/img/icon/check.png', text: 'Trocanterite' },
       { icon: 'assets/img/icon/check.png', text: 'Processi fibrotici' },
-      { icon: 'assets/img/icon/check.png', text: 'Tendinopatie croniche' },
       { icon: 'assets/img/icon/check.png', text: 'Processi artrosici' },
+      { icon: 'assets/img/icon/check.png', text: 'Ritardi di consolidazione e pseudoartrosi' },
+      { icon: 'assets/img/icon/check.png', text: 'Edema osseo e alcune forme iniziali di osteonecrosi' },
+      { icon: 'assets/img/icon/check.png', text: 'Sindrome da stress tibiale' },
+      { icon: 'assets/img/icon/check.png', text: 'Pubalgia cronica' },
+
     ],
-    p: 'Il trattamento con Onde d’Urto viene sempre preceduto da una valutazione specialistica e devono essere eseguite sempre sotto controllo ecografico, per garantire precisione, sicurezza ed efficacia del trattamento.'
+    p: 'Il trattamento con Onde d’Urto viene sempre preceduto da una valutazione specialistica e devono essere eseguite sempre sotto controllo ecografico, per garantire precisione, sicurezza ed efficacia del trattamento.',
+
+    extraContent: `
+     <h3>Come funzionano le onde d’urto focali?</h3>
+
+     <p>
+      Le onde d’urto focali agiscono sulla zona interessata attraverso diversi meccanismi:
+     </p>
+
+     <ul>
+      <li><strong>Effetto meccanico:</strong> favoriscono la riduzione delle calcificazioni presenti nei tendini.</li>
+      <li><strong>Effetto biologico:</strong> stimolano la neovascolarizzazione, la rigenerazione dei tessuti e l’attività delle cellule coinvolte nei processi di riparazione di osso e tendine.</li>
+      <li><strong>Effetto antalgico:</strong> contribuiscono alla riduzione del dolore attraverso la modulazione delle terminazioni nervose e dei processi infiammatori cronici.</li>
+     </ul>
+
+     <p>
+      A differenza delle onde d’urto radiali, che hanno un’azione più superficiale e dispersa,
+      le onde d’urto focali permettono di concentrare l’energia in un punto preciso e di
+      raggiungere strutture situate più in profondità.
+     </p> `,
   },
   {
     id: '2',

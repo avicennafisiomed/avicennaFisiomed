@@ -31,6 +31,7 @@ export interface DettagliServizio {
   description: string;
   utils: ListaUtile[];
   p: string;
+  extraContent?: string;
 }
 
 export interface ListaUtile {

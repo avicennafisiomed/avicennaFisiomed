@@ -14,11 +14,15 @@
             </li>
           </ul>
         </div>
+
         <div class="button-box">
-          <button class="prenota"><a href="https://www.miodottore.it/strutture/avicenna-fisiomed" target="_blank">PRENOTA ORA</a></button>
+          <button class="prenota"><a href="https://www.miodottore.it/strutture/avicenna-fisiomed"
+              target="_blank">PRENOTA ORA</a></button>
         </div>
       </div>
     </div>
+  </div>
+  <div *ngIf="page.extraContent" class="p-box p-extra" [innerHTML]="page.extraContent">
   </div>
   <div class="p-box">
     <p class="p">{{page.p}}</p>
