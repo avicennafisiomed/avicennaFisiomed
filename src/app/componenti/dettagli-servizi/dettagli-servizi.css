@@ -78,24 +78,19 @@
   background-color: rgb(204, 202, 202);
 }
 
-.p-extra{
-  flex-direction: column;
-  width: 67%;
-  font-size: 18px;
-  padding-top: 15px;
-  line-height: 25px;
-}
-
-
-.p-box {
+.p-extra {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: auto;
+  padding-top: 15px;
+  line-height: 25px;
+  width: 67%;
+  font-size: 17px;
 }
 
 .p {
   font-size: 22px;
-  width: 67%;
   line-height: 25px;
   font-weight: 600;
 }
@@ -153,6 +148,11 @@
     font-size: 16px;
     text-align: center;
     width: 100%;
+  }
+
+  .p-extra {
+    font-size: 15px;
+    width: 80%;
   }
 
   .button-box {

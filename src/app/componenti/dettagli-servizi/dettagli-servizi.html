@@ -22,10 +22,12 @@
       </div>
     </div>
   </div>
-  <div *ngIf="page.extraContent" class="p-box p-extra" [innerHTML]="page.extraContent">
-  </div>
-  <div class="p-box">
-    <p class="p">{{page.p}}</p>
+  <div class="p-extra" >
+    <div *ngIf="page.extraContent" [innerHTML]="page.extraContent">
+    </div>
+    <div>
+      <p class="p">{{page.p}}</p>
+    </div>
   </div>
 </section>
 
