@@ -46,7 +46,7 @@ export const DettagliServizioData: DettagliServizio[] = [
   {
     id: '2',
     title: 'EMTT - ElettroMagnetic Transduction Therapy',
-    image: 'assets/img/servizi/studio.jpg',
+    image: 'assets/img/servizi/emtt.png',
     description: 'È una terapia non invasiva che utilizza campi elettromagnetici ad alta intensità (\(>80\) mT) e frequenza (\(100-300\) kHz) per trattare dolori muscoloscheletrici, infiammazioni e patologie ossee.',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Al trattamento di dolori alla schiena, lombalgie, radicolopatie e contratture muscolari.' },
@@ -59,7 +59,7 @@ export const DettagliServizioData: DettagliServizio[] = [
   {
     id: '3',
     title: 'LASER YAG ad alta potenza - 5 Chronic Sport',
-    image: 'assets/img/servizi/studio.jpg',
+    image: 'assets/img/servizi/Laseryag.png',
     description: 'È una terapia fisica d’avanguardia che, con potenze elevate (spesso >10-25W), penetra in profondità (4-7 cm) nei tessuti, garantendo un rapido effetto antinfiammatorio, antiedemigeno e antalgico.',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Distorsioni (es. caviglia), stiramenti e strappi muscolari, contratture.' },
@@ -72,7 +72,7 @@ export const DettagliServizioData: DettagliServizio[] = [
   {
     id: '4',
     title: 'WINBACK THERAPY',
-    image: 'assets/img/servizi/studio.jpg',
+    image: 'assets/img/servizi/Winback.png',
     description: 'È un sistema di riabilitazione all’avanguardia che combina l’energia ad alta frequenza (Tecar) con la terapia manuale per accelerare la guarigione, ridurre il dolore cronico e acuto e migliorare la mobilità dei tessuti. ',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Trattamento di tendiniti, borsiti, distorsioni, contratture, stiramenti, lesioni muscolari e traumi ossei.' },
@@ -99,7 +99,7 @@ export const DettagliServizioData: DettagliServizio[] = [
   {
     id: '6',
     title: 'EPI® - Elettrolisi',
-    image: 'assets/img/servizi/studio.jpg',
+    image: 'assets/img/servizi/EPI.png',
     description: 'È una terapia mininvasiva, ecoguidata, utilizzata per curare tendinopatie e lesioni muscolari croniche. Attraverso un ago da agopuntura, viene applicata una corrente galvanica che provoca una reazione chimica, stimolando la rigenerazione del tessuto degenerato e riducendo il dolore. ',
     utils: [
       { icon: 'assets/img/icon/check.png', text: 'Efficace su tendiniti e tendinosi come quella achillea, del rotuleo (ginocchio), epicondilite (gomito del tennista), epitrocleite, e tendinopatie della spalla (sovraspinoso).' },

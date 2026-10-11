@@ -5,7 +5,7 @@ export const menuServiziData: menuServizi[] = [
     title: 'Tecnologie terapeutiche',
     list: [
       { id: '1', titleServizio: '<strong>ESWT</strong> - Onde d&rsquo;urto focale ecoguidata' },
-      { id: '2', titleServizio: '<strong>EMT</strong> - ElettroMagnetic Transduction Therapy' },
+      { id: '2', titleServizio: '<strong>EMTT</strong> - ElettroMagnetic Transduction Therapy' },
       { id: '3', titleServizio: '<strong>LASER YAG ad alta potenza</strong> - 5 Chronic Sport' },
       { id: '4', titleServizio: '<strong>WINBACK THERAPY</strong>' },
       { id: '5', titleServizio: '<strong>Neuromodulazione Percutanea Ecoguidata</strong>' },
