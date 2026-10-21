@@ -22,7 +22,7 @@ export const Data: ChiSiamoData[] = [
   {
     image: 'assets/img/chisiamo/patrizia.jpg',
     workTitle: 'FISIOTERAPISTA',
-    nome: 'PATRIZIA',
+    nome: 'PATRIZIA PADOAN',
     p: 'Specializzata nella rieducazione del pavimento pelvico'
   }
   ]

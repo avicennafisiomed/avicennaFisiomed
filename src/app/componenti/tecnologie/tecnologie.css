@@ -43,6 +43,11 @@ p {
   font-weight: bold;
 }
 
+.btn-scopri:hover {
+  background-color: #f6ab4f;
+  cursor: pointer;
+}
+
 .btn-scopri a {
   display: inline-flex;
   align-items: center;
