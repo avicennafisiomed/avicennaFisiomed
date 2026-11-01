@@ -216,10 +216,39 @@ export const DettagliServizioData: DettagliServizio[] = [
     id: '15',
     title: 'Sezione donne',
     image: 'assets/img/servizi/donne.jpg',
-    description: 'Fare attività fisica durante la gravidanza non solo è sicuro, ma è fondamentale per il benessere della mamma e del bambino. Da Avicenna Fisiomed proponiamo programmi personalizzati, studiati per mantenere forza, mobilità e controllo posturale, ridurre tensioni e prevenire dolori muscoloscheletrici.',
+    description: 'Durante la gravidanza e dopo il parto, prendersi cura del proprio corpo è fondamentale. Da Avicenna Fisiomed proponiamo percorsi personalizzati di attività fisica, valutazione e riabilitazione del pavimento pelvico, studiati per mantenere forza, mobilità ed equilibrio posturale, prevenire i disturbi e favorire un recupero graduale e sicuro.',
     utils: [
+         { icon: 'assets/img/icon/check.png', text: 'Preparare il pavimento pelvico al parto' },
+      { icon: 'assets/img/icon/check.png', text: 'Migliorare l\'elasticità e il controllo perineale' },
+      { icon: 'assets/img/icon/check.png', text: 'Rinforzare la parete addominale' },
+      { icon: 'assets/img/icon/check.png', text: 'Prevenire e ridurre i disturbi del pavimento pelvico' },
+      { icon: 'assets/img/icon/check.png', text: 'Favorire il recupero dopo il parto' },
+      { icon: 'assets/img/icon/check.png', text: 'Recuperare la funzionalità addominale e contrastare la diastasi dei retti' },
+      { icon: 'assets/img/icon/check.png', text: 'Ridurre eventuali dolori e tensioni muscolari' },
+      { icon: 'assets/img/icon/check.png', text: 'Riprendere l\'attività sportiva in sicurezza' },
     ],
-    p: 'Ogni percorso è seguito da preparatori atletici e fisioterapisti specializzati, con esercizi sicuri e mirati al pavimento pelvico, alla stabilità del core e alla corretta postura, per accompagnarti in tutte le fasi della gravidanza.'
+    extraContent: `
+    <h3>DOPO IL PARTO? NON SOTTOVALUTARE QUESTI SEGNALI!</h3>
+    
+    <p>
+   Dopo la nascita è importante valutare il pavimento pelvico e la parete addominale, soprattutto in presenza di:
+     </p>
+     
+     <ul>
+      <li>Piccole perdite urinarie</li>
+      <li> incontinenza fecale</li>
+      <li>incontinenza ai gas</li>
+      <li>dolore lombare o sacrale</li>
+      <li>addome che non rientra</li>
+      <li>Diastasi dei retti</li>
+      <li>Senso di peso addominale, vaginale o anale</li>
+      <li>dolore alla cicatrice vaginale o da  parto cesareo</li>
+      </ul>
+      
+      <p>
+      Una valutazione personalizzata permette di individuare il percorso più adatto per recuperare funzionalità e benessere e tornare gradualmente alla tua attività sportiva preferita.
+      </p> `,
+      p: 'Ogni percorso è seguito da fisioterapisti e preparatori atletici specializzati, con esercizi mirati al pavimento pelvico, alla stabilità del core e alla postura, per accompagnarti durante la gravidanza e nel recupero post parto.',
   },
 
 ]
